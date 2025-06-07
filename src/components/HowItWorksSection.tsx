@@ -85,7 +85,7 @@ const HowItWorksSection = () => {
               Ready to Get Started?
             </h3>
             <p className="text-primary-foreground/90 mb-6 max-w-2xl mx-auto">
-              Join thousands of satisfied customers who chose VhambaLease for their vehicle needs. 
+              Join thousands of satisfied customers who chose Vhamba Rent To Own for their vehicle needs. 
               Start your journey today.
             </p>
             <button className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-3 rounded-lg font-semibold transition-colors">

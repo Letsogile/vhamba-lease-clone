@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">VhambaLease</h3>
+            <h3 className="text-2xl font-bold mb-4">Vhamba Rent To Own</h3>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
               South Africa's premier vehicle leasing company, providing flexible 
               and affordable solutions for all your transportation needs.
@@ -60,7 +60,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-accent" />
-                <span className="text-primary-foreground/80">info@vhambalease.co.za</span>
+                <span className="text-primary-foreground/80">info@vhambarenttoown.co.za</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-accent mt-1" />
@@ -77,7 +77,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-primary-foreground/60 text-sm">
-              © 2024 VhambaLease. All rights reserved.
+              © 2024 Vhamba Rent To Own. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-primary-foreground/60 hover:text-accent text-sm transition-colors">
