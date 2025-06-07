@@ -38,9 +38,9 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Services</h4>
+            <h4 className="text-lg font-semibold mb-4">Rent to Buy</h4>
             <ul className="space-y-2">
-              {['Personal Leasing', 'Business Leasing', 'Short-term Rental', 'Maintenance Plans', 'Insurance', 'Roadside Assistance'].map((service) => (
+              {['Rent to Buy Cars', 'Rent to Buy a Car for Individuals', 'Rent to Buy a Car for Companies', 'Low Deposit Rent to Buy', 'Insurance', 'Roadside Assistance'].map((service) => (
                 <li key={service}>
                   <a href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
                     {service}
