@@ -13,7 +13,7 @@ const HeroSection = () => {
           <div className="animate-fade-in">
             <div className="inline-flex items-center space-x-2 bg-accent/10 px-3 py-1 rounded-full text-sm font-medium text-accent mb-6">
               <Star className="h-4 w-4" />
-              <span>South Africa's Trusted Leasing Partner</span>
+              <span>South Africa's Trusted Rent-To-Own Partner</span>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
