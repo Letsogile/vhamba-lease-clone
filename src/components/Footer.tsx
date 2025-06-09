@@ -72,9 +72,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-accent mt-1" />
                 <div className="text-primary-foreground/80">
-                  <p>115 Paul Kruger Street</p>
-                  <p>Pretoria Central, Pretoria</p>
-                  <p>Gauteng, 0002</p>
+                  <p className="text-gray-300">Pretoria | Cape Town</p>
+                  <p className="text-gray-300">Johannesburg | Motle</p>
                 </div>
               </div>
             </div>
