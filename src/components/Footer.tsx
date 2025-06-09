@@ -56,18 +56,25 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-accent" />
-                <span className="text-primary-foreground/80">+27 11 123 4567</span>
+                <div className="text-primary-foreground/80">
+                  <p>012 492 8035</p>
+                  <p>072 966 5796</p>
+                  <p>076 720 5365</p>
+                </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-accent" />
-                <span className="text-primary-foreground/80">info@vhambarenttoown.co.za</span>
+                <div className="text-primary-foreground/80">
+                  <p>info@vhambha.co.za</p>
+                  <p>vhambha@gmail.com</p>
+                </div>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-accent mt-1" />
                 <div className="text-primary-foreground/80">
-                  <p>123 Business District</p>
-                  <p>Sandton, Johannesburg</p>
-                  <p>2196, South Africa</p>
+                  <p>115 Paul Kruger Street</p>
+                  <p>Pretoria Central, Pretoria</p>
+                  <p>Gauteng, 0002</p>
                 </div>
               </div>
             </div>

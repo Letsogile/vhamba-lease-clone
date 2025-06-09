@@ -43,7 +43,7 @@ const Navigation = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
               <Phone className="h-4 w-4" />
-              <span>+27 11 123 4567</span>
+              <span>012 492 8035</span>
             </div>
             <Button className="bg-accent hover:bg-accent/90 text-accent-foreground">
               Get Quote
@@ -79,7 +79,7 @@ const Navigation = () => {
             <div className="px-3 py-2 space-y-2">
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4" />
-                <span>+27 11 123 4567</span>
+                <span>012 492 8035</span>
               </div>
               <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
                 Get Quote
