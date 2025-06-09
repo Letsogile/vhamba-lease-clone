@@ -24,7 +24,7 @@ const HeroSection = () => {
             
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Premium vehicle leasing solutions with flexible terms, competitive rates, and exceptional service. 
-              Experience the freedom of driving without the commitment of ownership.
+             Enjoy the Freedom of Preowning Your Car without a heavy Upfront Finacial Burden.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
