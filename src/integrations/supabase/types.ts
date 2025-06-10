@@ -9,7 +9,132 @@ export type Json =
 export type Database = {
   public: {
     Tables: {
-      [_ in never]: never
+      onboarding_applications: {
+        Row: {
+          application_status: string
+          bank_name: string | null
+          budget_range: string
+          city: string
+          created_at: string
+          date_of_birth: string
+          email: string
+          employer_name: string | null
+          employment_duration_months: number | null
+          employment_status: string
+          existing_finance_amount: number | null
+          first_name: string
+          has_bank_account: boolean
+          has_existing_vehicle_finance: boolean
+          has_traffic_violations: boolean
+          has_valid_drivers_license: boolean
+          id: string
+          id_number: string
+          job_title: string | null
+          last_name: string
+          license_code: string | null
+          monthly_expenses: number | null
+          monthly_income: number | null
+          notes: string | null
+          phone: string
+          postal_code: string
+          preferred_brand: string | null
+          preferred_vehicle_type: string
+          province: string
+          reference_1_name: string | null
+          reference_1_phone: string | null
+          reference_1_relationship: string | null
+          reference_2_name: string | null
+          reference_2_phone: string | null
+          reference_2_relationship: string | null
+          street_address: string
+          traffic_violations_details: string | null
+          updated_at: string
+          years_driving_experience: number | null
+        }
+        Insert: {
+          application_status?: string
+          bank_name?: string | null
+          budget_range: string
+          city: string
+          created_at?: string
+          date_of_birth: string
+          email: string
+          employer_name?: string | null
+          employment_duration_months?: number | null
+          employment_status: string
+          existing_finance_amount?: number | null
+          first_name: string
+          has_bank_account?: boolean
+          has_existing_vehicle_finance?: boolean
+          has_traffic_violations?: boolean
+          has_valid_drivers_license?: boolean
+          id?: string
+          id_number: string
+          job_title?: string | null
+          last_name: string
+          license_code?: string | null
+          monthly_expenses?: number | null
+          monthly_income?: number | null
+          notes?: string | null
+          phone: string
+          postal_code: string
+          preferred_brand?: string | null
+          preferred_vehicle_type: string
+          province: string
+          reference_1_name?: string | null
+          reference_1_phone?: string | null
+          reference_1_relationship?: string | null
+          reference_2_name?: string | null
+          reference_2_phone?: string | null
+          reference_2_relationship?: string | null
+          street_address: string
+          traffic_violations_details?: string | null
+          updated_at?: string
+          years_driving_experience?: number | null
+        }
+        Update: {
+          application_status?: string
+          bank_name?: string | null
+          budget_range?: string
+          city?: string
+          created_at?: string
+          date_of_birth?: string
+          email?: string
+          employer_name?: string | null
+          employment_duration_months?: number | null
+          employment_status?: string
+          existing_finance_amount?: number | null
+          first_name?: string
+          has_bank_account?: boolean
+          has_existing_vehicle_finance?: boolean
+          has_traffic_violations?: boolean
+          has_valid_drivers_license?: boolean
+          id?: string
+          id_number?: string
+          job_title?: string | null
+          last_name?: string
+          license_code?: string | null
+          monthly_expenses?: number | null
+          monthly_income?: number | null
+          notes?: string | null
+          phone?: string
+          postal_code?: string
+          preferred_brand?: string | null
+          preferred_vehicle_type?: string
+          province?: string
+          reference_1_name?: string | null
+          reference_1_phone?: string | null
+          reference_1_relationship?: string | null
+          reference_2_name?: string | null
+          reference_2_phone?: string | null
+          reference_2_relationship?: string | null
+          street_address?: string
+          traffic_violations_details?: string | null
+          updated_at?: string
+          years_driving_experience?: number | null
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
