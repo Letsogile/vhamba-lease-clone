@@ -7,66 +7,102 @@ import { Button } from '@/components/ui/button';
 const VehiclesSection = () => {
   const categories = [
     {
-      title: 'Luxury Sedans',
+      title: 'Hatchbacks',
+      image: 'https://images.unsplash.com/photo-1549927681-0b673b922a8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
+      count: '12+ Models',
+      description: 'Efficient and practical'
+    },
+    {
+      title: 'Sedans',
       image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
       count: '15+ Models',
-      description: 'Premium comfort and style'
+      description: 'Comfort and elegance'
     },
     {
-      title: 'SUVs & Crossovers',
+      title: 'SUVs',
       image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
-      count: '20+ Models',
-      description: 'Versatility and capability'
+      count: '10+ Models',
+      description: 'Space and versatility'
     },
     {
-      title: 'Sports Cars',
-      image: 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
+      title: 'Bakkies',
+      image: 'https://images.unsplash.com/photo-1563720360172-67b8f3dce741?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
       count: '8+ Models',
-      description: 'Performance and excitement'
-    },
-    {
-      title: 'Electric Vehicles',
-      image: 'https://images.unsplash.com/photo-1593941707882-a5bac6861d75?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
-      count: '12+ Models',
-      description: 'Sustainable and efficient'
+      description: 'Utility and strength'
     }
   ];
 
   const featuredVehicles = [
     {
-      name: 'BMW 3 Series',
-      category: 'Luxury Sedan',
-      image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
-      price: 'R5,999',
-      rating: 4.9,
+      name: 'Volkswagen Polo Vivo',
+      category: 'Hatchback',
+      image: 'https://images.unsplash.com/photo-1549927681-0b673b922a8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
+      price: 'R3,990',
+      rating: 4.7,
       features: {
         fuel: 'Petrol',
         seats: '5 Seats',
-        transmission: 'Automatic'
+        transmission: 'Manual'
       }
     },
     {
-      name: 'Mercedes GLC',
-      category: 'Luxury SUV',
-      image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
-      price: 'R7,499',
+      name: 'Toyota Corolla Quest',
+      category: 'Sedan',
+      image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
+      price: 'R4,990',
       rating: 4.8,
       features: {
         fuel: 'Petrol',
-        seats: '7 Seats',
+        seats: '5 Seats',
+        transmission: 'Manual'
+      }
+    },
+    {
+      name: 'Hyundai Creta',
+      category: 'SUV',
+      image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
+      price: 'R6,490',
+      rating: 4.6,
+      features: {
+        fuel: 'Petrol',
+        seats: '5 Seats',
         transmission: 'Automatic'
       }
     },
     {
-      name: 'Tesla Model 3',
-      category: 'Electric Sedan',
-      image: 'https://images.unsplash.com/photo-1593941707882-a5bac6861d75?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
-      price: 'R6,999',
+      name: 'Ford Ranger',
+      category: 'Bakkie',
+      image: 'https://images.unsplash.com/photo-1563720360172-67b8f3dce741?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
+      price: 'R8,990',
       rating: 4.9,
       features: {
-        fuel: 'Electric',
+        fuel: 'Diesel',
         seats: '5 Seats',
-        transmission: 'Automatic'
+        transmission: 'Manual'
+      }
+    },
+    {
+      name: 'Suzuki Swift',
+      category: 'Hatchback',
+      image: 'https://images.unsplash.com/photo-1549927681-0b673b922a8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
+      price: 'R4,490',
+      rating: 4.5,
+      features: {
+        fuel: 'Petrol',
+        seats: '5 Seats',
+        transmission: 'Manual'
+      }
+    },
+    {
+      name: 'Kia Picanto',
+      category: 'Hatchback',
+      image: 'https://images.unsplash.com/photo-1549927681-0b673b922a8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
+      price: 'R3,490',
+      rating: 4.4,
+      features: {
+        fuel: 'Petrol',
+        seats: '5 Seats',
+        transmission: 'Manual'
       }
     }
   ];
@@ -79,8 +115,8 @@ const VehiclesSection = () => {
             Our Vehicle Fleet
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Choose from our diverse collection of premium vehicles, from luxury sedans 
-            to eco-friendly electric cars. All vehicles are maintained to the highest standards.
+            Choose from our diverse collection of vehicles, from affordable hatchbacks 
+            to reliable bakkies. All vehicles are maintained to the highest standards with flexible rent-to-own terms.
           </p>
         </div>
 
@@ -168,6 +204,12 @@ const VehiclesSection = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+          
+          <div className="text-center mt-12">
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+              View All Vehicles
+            </Button>
           </div>
         </div>
       </div>
