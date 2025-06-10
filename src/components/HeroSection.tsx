@@ -33,7 +33,7 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground group" onClick={handleGetStarted}>
-                Get Started Today
+                Start Your Application
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/5">
