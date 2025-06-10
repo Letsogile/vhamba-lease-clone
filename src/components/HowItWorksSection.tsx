@@ -1,8 +1,11 @@
-
 import React from 'react';
 import { Search, FileCheck, Car, Key } from 'lucide-react';
 
 const HowItWorksSection = () => {
+  const handleGetStarted = () => {
+    window.location.href = '/onboarding';
+  };
+
   const steps = [
     {
       icon: Search,
@@ -88,7 +91,10 @@ const HowItWorksSection = () => {
               Join thousands of satisfied customers who chose Vhamba Rent To Own for their vehicle needs. 
               Start your journey today.
             </p>
-            <button className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-3 rounded-lg font-semibold transition-colors">
+            <button 
+              className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-3 rounded-lg font-semibold transition-colors"
+              onClick={handleGetStarted}
+            >
               Start Your Application
             </button>
           </div>
