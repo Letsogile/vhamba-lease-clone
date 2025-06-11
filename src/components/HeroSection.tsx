@@ -68,7 +68,7 @@ const HeroSection = () => {
           <div className="relative animate-slide-up">
             <div className="relative">
               <img
-                src="https://marketplace.flexclub.co.za/offer/66462070f2db8488fccd9ea7?startDate=&duration=6&location=&referral="
+                src="https://marketplace.flexclub.co.za/offer/66462070f2db8488fccd9ea7?"
                 alt="Premium vehicle"
                 className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
               />
