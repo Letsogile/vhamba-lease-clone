@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
@@ -9,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">Vhamba Rent To Own</h3>
+            <h3 className="text-2xl font-bold mb-4">VhambhaRentToOwn</h3>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
               South Africa's premier vehicle leasing company, providing flexible 
               and affordable solutions for all your transportation needs.
@@ -83,7 +82,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-primary-foreground/60 text-sm">
-              © 2024 Vhamba Rent To Own. All rights reserved.
+              © 2024 VhambhaRentToOwn. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-primary-foreground/60 hover:text-accent text-sm transition-colors">
