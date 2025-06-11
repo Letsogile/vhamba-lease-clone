@@ -48,7 +48,7 @@ const VehiclesSection = () => {
     {
       name: 'Toyota Corolla Quest',
       category: 'Sedan',
-      image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
+      image: 'https://marketplace.flexclub.co.za/offer/65a680dfbc27321b3e28e65b?startDate=&duration=6&location=&referral=',
       price: 'R4,990',
       rating: 4.8,
       features: {
