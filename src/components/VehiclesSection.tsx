@@ -8,25 +8,25 @@ const VehiclesSection = () => {
   const categories = [
     {
       title: 'Hatchbacks',
-      image: 'https://images.unsplash.com/photo-1549927681-0b673b922a8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
+      image: 'https://marketplace.flexclub.co.za/offer/664c7693180d98f588d613e8?startDate=&duration=6&location=&referral=',
       count: '12+ Models',
       description: 'Efficient and practical'
     },
     {
       title: 'Sedans',
-      image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
+      image: 'https://marketplace.flexclub.co.za/offer/66d24b0d92d5afe551fc1ce9?startDate=&duration=6&location=&referral=',
       count: '15+ Models',
       description: 'Comfort and elegance'
     },
     {
       title: 'SUVs',
-      image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
+      image: 'https://marketplace.flexclub.co.za/offer/65c6060b7247ca741ec54e39?startDate=&duration=6&location=&referral=',
       count: '10+ Models',
       description: 'Space and versatility'
     },
     {
       title: 'Bakkies',
-      image: 'https://images.unsplash.com/photo-1563720360172-67b8f3dce741?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
+      image: 'https://marketplace.flexclub.co.za/?page=3',
       count: '8+ Models',
       description: 'Utility and strength'
     }
